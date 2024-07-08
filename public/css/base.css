@@ -1,0 +1,741 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+textarea {
+    resize: none;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0 0 0;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #555;
+}
+.nav a.login {
+    color: #3498db; /* Change the color to your preference */
+    border: 2px solid #3498db; /* Change the color to your preference */
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.nav a.login:hover {
+    background-color: #3498db; /* Change the color to your preference */
+    color: white; /* Change the color to your preference */
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #217dbb;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.registration {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.registration-label {
+    display: inline;
+    margin-bottom: 8px;
+}
+
+.registration-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.registration-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.registration-button:hover {
+    background-color: #0056b3;
+}
+
+.registration-error {
+    padding: 10px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    color: #721c24;
+    text-align: left; /* Adjust as needed */
+}
+
+.registration-error ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.registration-error li {
+    margin-bottom: 5px;
+}
+.center-container {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registration-checkbox {
+    /* Add specific styles for checkboxes */
+    margin-right: 8px; /* Adjust as needed for spacing */
+}
+.registration-checkbox-label{
+    display:inline;
+}
+.basepage-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basepage-section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+
+.basepage-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.admininterface-row {
+    display: flex;
+    width: 100%;
+}
+
+.admininterface-row > div {
+    width: 50%; /* Adjust width based on your design */
+    border: 1px solid #ddd; /* Optional: Add a border for styling */
+}
+
+.adminUser-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.adminUser-table th, .adminUser-table td {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+.adminUser-table th {
+    background-color: #f2f2f2;
+}
+
+.adminUser-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.adminUser-table tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.gallery-image {
+    width: calc(20% - 10px); /* 20% width with 10px gap */
+    height: auto;
+}
+
+.adminGallerymainDiv{
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.adminGalleryInDiv{
+    width: 100%;
+}
+.adminGalleryInDiv form{
+    width: 100%;
+}
+
+.adminMonster-form-container {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.adminMonster-form-container form{
+    width: 100%;
+}
+.adminMonster-form-field {
+    margin-bottom: 15px;
+}
+
+.adminMonster-form-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.adminMonster-form-field input,
+.adminMonster-form-field textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+.adminMonster-form-field input[type="range"] {
+    width: 100%;
+    margin-top: 5px; /* Add spacing for better visual separation */
+}
+
+.monster-enciklopedia-contener{
+    width: 100%;
+}
+.monster-enciklopedia-monster-contener{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.monster-enciklopedia-image-div{
+    width: 45%;
+    display: inline-block;
+    flex: 1;
+}
+.monster-enciklopedia-data-div{
+    width: 45%;
+    display: inline-block;
+    flex: 1;
+}
+.monster-enciklopedia-image{
+    width: 100%;
+    height: auto;
+}
+.monster-enciklopedia-data-contener-div{
+    width: 100%;
+    display: flex;
+    height: calc(100% /8);
+}
+.monster-enciklopedia-left-div{
+    flex: 1;
+    width: 45%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+}
+.monster-enciklopedia-right-div{
+    flex: 1;
+    width: 45%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+.pagination {
+    display: flex !important;
+    justify-content: space-around; /* Adjust to space evenly */
+    list-style: none;
+    margin: 0 !important;
+}
+
+.pagination li {
+    display: inline-block;
+}
+
+.pagination li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.pagination li.active a {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pagination li a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pagination a, .pagination span {
+    font-size: 56px; /* Adjust the font size as needed */
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set the color of the links */
+}
+
+.pagination .current-page {
+    font-size: 18px; /* Adjust the font size for the current page */
+    font-weight: bold; /* Optionally, make the current page bold */
+    color: #000; /* Set the color of the current page */
+}
+
+.pagination .disabled {
+    color: #999; /* Set the color of disabled links */
+}
+
+/* Optionally, you can add hover styles for better interactivity */
+.pagination a:hover {
+    color: #555; /* Set the color on hover */
+}
+
+.admin-News-form {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.admin-News-form form{
+    width: 100%;
+}
+.admin-News-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.admin-News-form input,
+.admin-News-form textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.admin-News-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+} 
+
+.events-contener-div{
+    width:80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.event-contener-header{
+    width:100%;
+    background-color: #666464;
+}
+
+.event-contener-header b{
+    width: 100px;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.event-contener-header span{
+    font-size: 40px;
+    color: #e31c02;
+}
+
+.event-contener-content{
+    padding-left: 100px;
+    font-size: 24px;
+}
+
+.admin-galery-delet-div{
+    width:80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.table-fixed-div{
+    max-height: 500px;
+    width:100%;
+    overflow-y: auto;
+}
+
+.admin-event-delet-div{
+    width:80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#editEventForm{
+    width:100%;
+}
+
+.eventDeletFormDelet{
+    width:80%;
+    padding: 0px;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-message {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.contact-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.admin-monster-delet-div{
+    width:80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.forumnav {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    width: 80%; /* Set width to 80% */
+    margin: 0 auto; /* Center the .forumnav container horizontally */
+}
+
+.forumnav button{
+    margin: 0 10px; /* Adjust margin between elements */
+    width: 100px; /* Set a specific width for all buttons */
+}
+
+.forumnav a {
+    text-decoration: none; /* Remove underline from anchor links */
+}
+
+.forumnav a button {
+    width: auto; /* Set width to auto for button inside anchor */
+}
+
+.color-changing-hr {
+    border-color: #000080; /* Dark blue */
+    transition: border-color 0.5s ease; /* Smooth transition effect */
+}
+
+.modal-body.modal-body-wide {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.modal-body-wide form {
+    width: 100%;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forumPostContainer {
+    background-color: #166cee; /* Dark blue background color */
+    padding: 20px; /* Optional: Add padding for spacing */
+}
+
+.forumPostTitle {
+    text-align: center; /* Center-align the text */
+}
+
+.forumPostContent {
+    border: 2px solid #0d47a1; /* Border style with dark blue color */
+    padding: 20px; /* Optional: Add padding for spacing inside the border */
+}
+
+.forumPost-meta-info {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 80%;
+}
+
+.forumPostComment{
+    white-space: pre-line;
+}
+
+.post{
+    border: 2px solid #0d47a1; /* Border style with dark blue color */
+    padding: 20px; /* Optional: Add padding for spacing inside the border */
+}
+
+.postContent{
+    white-space: pre-line;
+}
+
+.postMetaInfo{
+    text-align: right;
+    margin-top: 10px;
+    font-size: 80%;
+    display: inline-block;
+}
+
+.postActions {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: flex-end;
+}
+
+.postActionIcon {
+    margin-right: 10px; /* Adjust margin between the icon and meta info */
+    display: inline-block;
+}
+
+.forumPostNewCommentContainer {
+    margin-top: 20px;
+}
+
+.forumPostForm {
+    width: 100%;
+}
+
+.forumPostFormGroup {
+    margin-bottom: 15px;
+}
+
+.forumPostLabel {
+    display: block;
+    font-weight: bold;
+}
+
+.forumPostTextarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.forumPostSubmitButton {
+    display: block;
+    width: 100%;
+}
+
+#createRankForm{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#deleteRankForm{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.mainProfileContainer {
+    display: flex;
+}
+
+.mainProfileNavContainer {
+    flex: 0 0 200px; /* Adjust the width as needed */
+    background-color: #f4f4f4; /* Optional: to visualize the nav area */
+    padding: 10px;
+}
+
+.mainProfileNavItemForm {
+    margin-bottom: 10px;
+}
+
+.mainProfileNavItemButton {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    text-align: left; /* Optional: to align text to the left */
+}
+
+.mainProfileNavItemButton:hover {
+    background-color: #0056b3; /* Optional: change button color on hover */
+}
+
+.mainProfileContent {
+    flex: 1;
+    padding: 10px;
+    background-color: #fff; /* Optional: to visualize the content area */
+}
+
+.profile-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.profileInfo-info-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.profileInfo-info-item label {
+    font-weight: bold;
+}
+
+.profileInfo-info-item p {
+    margin: 0;
+}
+
+.profileInfo-info-item .edit-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profileInfo-info-item .edit-button:hover {
+    background-color: #0056b3;
+}
+
+.profile-actions {
+    text-align: center;
+    margin-top: 20px;
+}
